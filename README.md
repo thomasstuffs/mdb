@@ -6,13 +6,15 @@
 - O projeto visa armazenar dados de escolas para o melhor organizamento e consulta desses dados.
 
 *Funcionalidades*
--armazenamento de dados de:
+-armazenamento e gerenciamento de dados de:
  -alunos
  -professores
  -coordenadores
  -responsaveis
  -notas escolares
-para melhor consulta e gerenciamento desses dados escolares.
+ -matriculas
+ -cursos e cronogama de aulas
+ -escala de turmas 
 
 *Tecnologias utilizadas*
 -brmodelo
@@ -21,11 +23,11 @@ para melhor consulta e gerenciamento desses dados escolares.
 -php
 
 *Estrutura do projeto*
-- Todas as telas do aplicativo foram criadas e colocadas em apenas um arquivo, com a finalidade de melhor organização e não ter que usar tantas pastas.
-- Na API foi usada apenas uma pasta no HTDOCS, para fazer a API onde liga cada tela (aluno,professor,coordenadores,etc...).
+ -O banco de dados foi criado e modelado no brmodelo, dando origem ao que podemos chamar de sua base estrutural.
+ Após isso, dentro do SQL, foram colocados todos as informações/dados que deveriam ter dentro do banco de dados a respeito de quantidade de alunos, professores e seus diplomas, grade curricular e carga horaria de aulas, dados de pais/responsáveis , quem são os atuais coordenadores, notas escolares, matriculas ativas e encerradas.
 
 *Como Executar*
-- Para a execução do projeto é simples, basta apenas entrar no site do "snack" e coloque o código ou entre pelo link do git hub, podendo utilizar de todas as ferramentas que o app disponibiliza.
+- Para a execução do banco de dados basta entrar no xampp, ligar o PHP e o SGL e entrar como admin no SQL e colocar o código SGl, que esta disponivel no github, e ir na área e linha de codigos do SQL copiar o codigo e executar o código.  
 
 *Autor*
 - Thomas Stuff Santos 3° DS
