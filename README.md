@@ -3,22 +3,21 @@
 *App_Scholar*
 
 *Sobre*
-- O aplicativo visa deixar mais efetivo a gestão e administração de escolas.
+- O projeto visa armazenar dados de escolas para o melhor organizamento e consulta desses dados.
 
 *Funcionalidades*
-- Gerenciamento de alunos
-- Gerenciamento de professores e seus diplomas atuais
-- Cadastro e desligamentos de alunos
-- Cadastro e desligamento de professores
-- Cadastro e desligamento de coordenadores
-- Cadastro e desligamento de responsaveis
-- Gerenciamento de notas
-- Gerenciamento de cursos e aulas
+-armazenamento de dados de:
+ -alunos
+ -professores
+ -coordenadores
+ -responsaveis
+ -notas escolares
+para melhor consulta e gerenciamento desses dados escolares.
 
 *Tecnologias utilizadas*
--css
+-brmodelo
+-xampp
 -java script
--html
 -php
 
 *Estrutura do projeto*
